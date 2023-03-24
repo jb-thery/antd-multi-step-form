@@ -16,10 +16,10 @@ export const StepPricing = (): JSX.Element => {
     <>
       <section>
         <Title level={4} className="mb-4">
-          Quel est votre chiffre d'affaire annuel HT en euros ?
+          Votre commition
         </Title>
 
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-3 sm:grid-cols-4 gap-4">
           {CA_VALUES.map((value) => (
             <Button key={value} shape="round" size="large">
               {value} €
@@ -30,10 +30,10 @@ export const StepPricing = (): JSX.Element => {
 
       <section>
         <Title level={4} className="mb-4">
-          Quel est votre chiffre d'affaire annuel HT en euros ?
+          Vos frais de courtage
         </Title>
 
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-3 sm:grid-cols-4 gap-4">
           {CA_VALUES.map((value) => (
             <Button key={value} shape="round" size="large">
               {value} €
@@ -44,10 +44,10 @@ export const StepPricing = (): JSX.Element => {
 
       <section>
         <Title level={4} className="mb-4">
-          Quel est votre chiffre d'affaire annuel HT en euros ?
+          Vos frais de courtage
         </Title>
 
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-3 sm:grid-cols-4 gap-4">
           {CA_VALUES.map((value) => (
             <Button key={value} shape="round" size="large">
               {value} €

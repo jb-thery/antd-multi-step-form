@@ -62,7 +62,7 @@ export const App = (): JSX.Element => {
       ),
       4: (
         <FormStep
-          title="Merci, je vais vous proposer un devis au plus vite !"
+          title="Merci je vais vous proposer un devis au plus vite"
           currentStep={currentStep}
           progress={100}
           onNext={handleNextStep}

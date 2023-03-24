@@ -1,6 +1,7 @@
 import { Avatar, Button, Progress, theme, Typography } from "antd"
 import { UserOutlined } from "@ant-design/icons"
 import { type ReactNode } from "react"
+import clsx from "clsx"
 
 const { Title } = Typography
 const { useToken } = theme
@@ -47,7 +48,13 @@ export const FormStep = (props: FormStepProps): JSX.Element => {
 
       {children}
 
-      <nav className="flex justify-between">
+      <nav
+        className={clsx(
+          "flex justify-between p-5 sm:p-0",
+          "fixed sm:relative inset-x-0 bottom-0",
+          "bg-gradient-to-t from-white to-transparent"
+        )}
+      >
         <Button
           className="bg-primary"
           type="primary"
