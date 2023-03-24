@@ -8,7 +8,13 @@ import "./assets/styles/global.css"
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <ConfigProvider>
+    <ConfigProvider
+      theme={{
+        token: {
+          colorPrimary: "#145884"
+        }
+      }}
+    >
       <App />
     </ConfigProvider>
   </React.StrictMode>
