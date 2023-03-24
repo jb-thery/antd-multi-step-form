@@ -1,3 +1,11 @@
+import { Progress } from "antd"
+
 export const App = (): JSX.Element => {
-  return <div>antd multi step form</div>
+  return (
+    <main>
+      <article>
+        <Progress percent={30} />
+      </article>
+    </main>
+  )
 }
